@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+form {
+    width: 400px;
+background: rgb(94, 23, 23);
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'Amatic SC', cursive;
+color: rgb(231, 230, 230);
+box-shadow: 7px 13px 37px rgb(245, 203, 167) ;
+}
+ 
+label{
+    text-align:left;
+    font-size: 15px ;
+    margin-bottom: 20px;
+    font-family: 'Amatic SC', cursive;
+}
+
+form h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.controls {
+    width: 100%;
+    background: rgb(48, 43, 43) ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(131, 122, 122) ;
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;    
+}
+
+form p {
+height: 40px;
+text-align: center;
+font-size: 22px;
+line-height: 40px;
+}
+
+form a {
+    color: white;
+    text-decoration: none;
+}
+
+form a:hover {
+color: rgba(175, 153, 153, 0.507);
+text-decoration: underline;
+}
+
+form button {
+width: 100px;
+font-family: 'Amatic SC', cursive;
+outline: none;
+background: rgb(0, 0, 0) ;
+font-size: 16px;
+color: white;
+padding: 15px 0;
+cursor: pointer;
+transition: all .5s ease;
+border-radius: 10px;
+}
