@@ -40,7 +40,7 @@ body{
          <span class="tooltip">Dashboard</span>
       </li>
       <li>
-       <a href="{{asset('view/index.blade.php');}}">
+       <a href="/index">
          <i class='bx bx-user' ></i>
          <span class="links_name">Usuarios</span>
        </a>
@@ -49,21 +49,21 @@ body{
      <li>
       
      <li>
-       <a href="producto.blade.php">
+       <a href="/producto">
          <i class='bx bx-pie-chart-alt-2' ></i>
          <span class="links_name">Productos</span>
        </a>
        <span class="tooltip">Productos</span>
      </li>
      <li>
-       <a href="clientes.blade.php">
+       <a href="/clientes">
          <i class='bx bx-folder' ></i>
          <span class="links_name">Clientes</span>
        </a>
        <span class="tooltip">Clientes</span>
      </li>
      <li>
-       <a href="ventas.blade.php">
+       <a href="/ventas">
          <i class='bx bx-cart-alt' ></i>
          <span class="links_name">Ventas</span>
        </a>
@@ -71,7 +71,7 @@ body{
      </li>
      <li>
      <li>
-       <a href="proveedor.blade.php">
+       <a href="/proveedor">
          <i class='bx bx-cog' ></i>
          <span class="links_name">Proveedor</span>
        </a>

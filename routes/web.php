@@ -31,3 +31,7 @@ Route::get('/producto', function () {
 Route::get('/ventas', function () {
     return view('ventas');
 });
+ 
+Route::get('/proveedor', function () {
+    return view('proveedor');
+});

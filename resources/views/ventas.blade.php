@@ -9,6 +9,18 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
+   <style>
+    body{
+      position: relative;
+      background: url(img/fondo.jpg);
+      background-repeat: no-repeat;
+     background-size: 1600px 800px;
+      left: 78px;
+      width: calc(99% - 75px);
+      transition: all 0.5s ease;
+      z-index: 2;
+    }
+       </style>
 <body>
   <div class="sidebar">
     <div class="logo-details">
@@ -26,54 +38,54 @@
          <span class="tooltip">Dashboard</span>
       </li>
       <li>
-       <a href="index.html">
-         <i class='bx bx-user' ></i>
-         <span class="links_name">Usuarios</span>
-       </a>
-       <span class="tooltip">Usuarios</span>
-     </li>
-     <li>
-      
-     <li>
-       <a href="producto.html">
-         <i class='bx bx-pie-chart-alt-2' ></i>
-         <span class="links_name">Productos</span>
-       </a>
-       <span class="tooltip">Productos</span>
-     </li>
-     <li>
-       <a href="clientes.html">
-         <i class='bx bx-folder' ></i>
-         <span class="links_name">Clientes</span>
-       </a>
-       <span class="tooltip">Clientes</span>
-     </li>
-     <li>
-       <a href="ventas.html">
-         <i class='bx bx-cart-alt' ></i>
-         <span class="links_name">Ventas</span>
-       </a>
-       <span class="tooltip">Ventas</span>
-     </li>
-     <li>
-     <li>
-       <a href="proveedor.html">
-         <i class='bx bx-cog' ></i>
-         <span class="links_name">Proveedor</span>
-       </a>
-       <span class="tooltip">Proveedor</span>
-     </li>
-     <li class="profile">
-         <div class="profile-details">
-           <div class="name_job">
-             <div class="name">Logout</div>
-             <div class="job"></div>
-           </div>
-         </div>
-         <i class='bx bx-log-out' id="log_out" ></i>
-     </li>
-    </ul>
-  </div>
+        <a href="/index">
+          <i class='bx bx-user' ></i>
+          <span class="links_name">Usuarios</span>
+        </a>
+        <span class="tooltip">Usuarios</span>
+      </li>
+      <li>
+       
+      <li>
+        <a href="/producto">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="links_name">Productos</span>
+        </a>
+        <span class="tooltip">Productos</span>
+      </li>
+      <li>
+        <a href="/clientes">
+          <i class='bx bx-folder' ></i>
+          <span class="links_name">Clientes</span>
+        </a>
+        <span class="tooltip">Clientes</span>
+      </li>
+      <li>
+        <a href="/ventas">
+          <i class='bx bx-cart-alt' ></i>
+          <span class="links_name">Ventas</span>
+        </a>
+        <span class="tooltip">Ventas</span>
+      </li>
+      <li>
+      <li>
+        <a href="/proveedor">
+          <i class='bx bx-cog' ></i>
+          <span class="links_name">Proveedor</span>
+        </a>
+        <span class="tooltip">Proveedor</span>
+      </li>
+      <li class="profile">
+          <div class="profile-details">
+            <div class="name_job">
+              <div class="name">Logout</div>
+              <div class="job"></div>
+            </div>
+          </div>
+          <i class='bx bx-log-out' id="log_out" ></i>
+      </li>
+     </ul>
+   </div>
   <section class="home-section">
      <center> <div class="text">Black Coffee Bar & Bistro</div></center>
     <form action="" method="POST" onsubmit="return validar();"> 
