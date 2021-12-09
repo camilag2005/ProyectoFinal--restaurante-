@@ -1,10 +1,11 @@
 /* Google Font Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: impact;
+  font-family: 'Amatic SC';
+  
 }
 .sidebar{
   position: fixed;
@@ -16,6 +17,7 @@
   padding: 6px 14px;
   z-index: 99;
   transition: all 0.5s ease;
+  
 }
 .sidebar.open{
   width: 250px;
@@ -32,8 +34,8 @@
 }
 .sidebar .logo-details .logo_name{
   color: rgb(172, 21, 21);
-  font-family: 'Dancing Script', cursive;
-  font-size: 20px;
+  font-family: 'Amatic SC';
+  font-size: 25px;
   font-weight: 600;
   opacity: 0;
   transition: all 0.5s ease;
@@ -47,7 +49,6 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  font-size: 22px;
   transition: all 0.4s ease;
   font-size: 23px;
   text-align: center;
@@ -129,6 +130,7 @@
 .sidebar.open .bx-search:hover{
   background: #1d1b31;
   color: #FFF;
+  
 }
 .sidebar .bx-search:hover{
   background: #FFF;
@@ -149,7 +151,7 @@
 }
 .sidebar li a .links_name{
   color: #fff;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   white-space: nowrap;
   opacity: 0;
@@ -199,7 +201,7 @@
 }
 .sidebar li.profile .name,
 .sidebar li.profile .job{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   color: #fff;
   white-space: nowrap;
@@ -223,28 +225,17 @@
   width: 50px;
   background: none;
 }
-.home-section{
-  position: relative;
-  background: url(img/fondo.jpg);
-  background-repeat: no-repeat;
- background-size: 1500px 800px;
-  min-height: 100vh;
-  top: 0;
-  left: 78px;
-  width: calc(100% - 78px);
-  transition: all 0.5s ease;
-  z-index: 2;
-}
+
 .sidebar.open ~ .home-section{
   left: 250px;
   width: calc(100% - 250px);
 }
 .home-section .text{
   display: center;
-  color: #ce2727;
-  font-size: 40px;
-  font-family: impact;
-  font-weight: 500;
+  color: white;
+  font-size: 85px;
+  font-family: 'Amatic SC';
+  font-weight: 500px;
   margin: 18px;
 
 }

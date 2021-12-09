@@ -6,11 +6,22 @@
     <title>Black Coffee Bar & Bistro</title>
     <link rel="stylesheet" href="{{asset('css/form.css');}}">
     <link rel="stylesheet" href="{{asset('css/style.css');}}">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
    <style>
-
+body{
+  position: relative;
+  background: url(img/fondo.jpg);
+  background-repeat: no-repeat;
+ background-size: 1600px 800px;
+  left: 78px;
+  width: calc(99% - 75px);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
    </style>
 <body>
   <div class="sidebar">
@@ -29,7 +40,7 @@
          <span class="tooltip">Dashboard</span>
       </li>
       <li>
-       <a href="index.blade.php">
+       <a href="{{asset('view/index.blade.php');}}">
          <i class='bx bx-user' ></i>
          <span class="links_name">Usuarios</span>
        </a>
