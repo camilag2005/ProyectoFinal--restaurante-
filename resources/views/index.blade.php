@@ -29,7 +29,7 @@
          <span class="tooltip">Dashboard</span>
       </li>
       <li>
-       <a href="index.html">
+       <a href="index.blade.php">
          <i class='bx bx-user' ></i>
          <span class="links_name">Usuarios</span>
        </a>
@@ -38,21 +38,21 @@
      <li>
       
      <li>
-       <a href="producto.html">
+       <a href="producto.blade.php">
          <i class='bx bx-pie-chart-alt-2' ></i>
          <span class="links_name">Productos</span>
        </a>
        <span class="tooltip">Productos</span>
      </li>
      <li>
-       <a href="clientes.html">
+       <a href="clientes.blade.php">
          <i class='bx bx-folder' ></i>
          <span class="links_name">Clientes</span>
        </a>
        <span class="tooltip">Clientes</span>
      </li>
      <li>
-       <a href="ventas.html">
+       <a href="ventas.blade.php">
          <i class='bx bx-cart-alt' ></i>
          <span class="links_name">Ventas</span>
        </a>
@@ -60,7 +60,7 @@
      </li>
      <li>
      <li>
-       <a href="proveedor.html">
+       <a href="proveedor.blade.php">
          <i class='bx bx-cog' ></i>
          <span class="links_name">Proveedor</span>
        </a>
@@ -114,7 +114,7 @@
 
   </section>
 
-  <script src="script.js"></script>
+  <script src="{{asset('js/script.js');}}"></script>
 
 </body>
 </html>

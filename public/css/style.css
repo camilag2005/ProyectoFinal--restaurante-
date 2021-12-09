@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins" , sans-serif;
+  font-family: impact;
 }
 .sidebar{
   position: fixed;
@@ -243,7 +243,7 @@
   display: center;
   color: #ce2727;
   font-size: 40px;
-  font-family: 'Dancing Script', cursive;
+  font-family: impact;
   font-weight: 500;
   margin: 18px;
 
