@@ -92,26 +92,26 @@
       <h1>Productos</h1>
       <div>
         <label for="contraseña">Codigo de producto:</label>
-        <input class="controls" type="password" id="contraseña" placeholder="Escriba su Codigo">
+        <input class="controls" type="password" id="contraseña" placeholder="Escriba su Codigo" required>
                 </div>
       <div>
       <label for="nombre">Nombre de Producto:</label>
-      <input class="controls" type="text" id="nombre" placeholder="nombre producto">
+      <input class="controls" type="text" id="nombre" placeholder="nombre producto" required>
       </div>
       
       <div>
       <label for="apellido">Stock producto:</label>
-      <input class="controls" type="text" id="apellido" placeholder="Stock producto">
+      <input class="controls" type="text" id="apellido" placeholder="Stock producto" required>
               </div>
       
               <div>
       <label for="Correo">Cantidad:</label>
-      <input class="controls" type="email" id="correo" placeholder="Cantidad">
+      <input class="controls" type="email" id="correo" placeholder="Cantidad" required>
               </div>
       
               <div>
       <label for="contraseña">Precio:</label>
-      <input class="controls" type="password" id="contraseña" placeholder="Escriba su precio">
+      <input class="controls" type="password" id="contraseña" placeholder="Escriba su precio" required>
               </div>
               <div>
                 

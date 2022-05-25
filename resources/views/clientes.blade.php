@@ -92,27 +92,27 @@
       <h1>Clientes</h1>
       <div>
       <label for="nombre">Nombre:</label>
-      <input class="controls" type="text" id="nombre" placeholder="Escriba su nombre">
+      <input class="controls" type="text" id="nombre" placeholder="Escriba su nombre" required>
       </div>
       
       <div>
       <label for="apellido">Apellido:</label>
-      <input class="controls" type="text" id="apellido" placeholder="Escriba su apellido">
+      <input class="controls" type="text" id="apellido" placeholder="Escriba su apellido" required>
               </div>
       
               <div>
       <label for="Correo">Cedula:</label>
-      <input class="controls" type="email" id="correo" placeholder="Escriba su Cedula">
+      <input class="controls" type="email" id="correo" placeholder="Escriba su Cedula" required>
               </div>
       
               <div>
       <label for="contraseña">telefono:</label>
-      <input class="controls" type="password" id="contraseña" placeholder="Escriba su telefono">
+      <input class="controls" type="password" id="contraseña" placeholder="Escriba su telefono" required>
               </div>
 
               <div>
                 <label for="contraseña">Direccion:</label>
-                <input class="controls" type="password" id="contraseña" placeholder="Escriba su Direccion">
+                <input class="controls" type="password" id="contraseña" placeholder="Escriba su Direccion" required>
                         </div>
     
               <div class="button"><center>

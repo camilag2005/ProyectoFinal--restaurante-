@@ -92,17 +92,17 @@
       <h1>Ventas</h1>
       <div>
       <label for="nombre">Nombre de producto:</label>
-      <input class="controls" type="text" id="nombre" placeholder="Escribe el nombre del producto">
+      <input class="controls" type="text" id="nombre" placeholder="Escribe el nombre del producto" required>
       </div>
       
       <div>
       <label for="apellido">Codigo del producto:</label>
-      <input class="controls" type="text" id="apellido" placeholder="Codigo del producto">
+      <input class="controls" type="text" id="apellido" placeholder="Codigo del producto" required>
               </div>
       
               <div>
       <label for="Correo">Cantidad:</label>
-      <input class="controls" type="email" id="correo" placeholder="Escriba su cantidad">
+      <input class="controls" type="email" id="correo" placeholder="Escriba su cantidad" required>
               </div>
       
               <div class="button"><center>

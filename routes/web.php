@@ -35,11 +35,3 @@ Route::get('/ventas', function () {
 Route::get('/proveedor', function () {
     return view('proveedor');
 });
-
-Route::get('/ejercicios', function () {
-    return view('ejercicios');
-});
-
-Route::get('/ejercicios2', function () {
-    return view('ejercicios2');
-});

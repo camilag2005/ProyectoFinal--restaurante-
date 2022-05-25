@@ -94,22 +94,22 @@ body{
       <h1>Usuario</h1>
       <div>
       <label for="nombre">Nombre:</label>
-      <input class="controls" type="text" id="nombre" placeholder="Escriba su nombre">
+      <input class="controls" type="text" id="nombre" placeholder="Escriba su nombre" required>
       </div>
       
       <div>
       <label for="apellido">Apellido:</label>
-      <input class="controls" type="text" id="apellido" placeholder="Escriba su apellido">
+      <input class="controls" type="text" id="apellido" placeholder="Escriba su apellido" required>
               </div>
       
               <div>
       <label for="Correo">Correo:</label>
-      <input class="controls" type="email" id="correo" placeholder="Escriba su correo">
+      <input class="controls" type="email" id="correo" placeholder="Escriba su correo" required>
               </div>
       
               <div>
       <label for="contraseña">Contraseña:</label>
-      <input class="controls" type="password" id="contraseña" placeholder="Escriba su contraseña">
+      <input class="controls" type="password" id="contraseña" placeholder="Escriba su contraseña" required>
               </div>
     
               <div class="button"><center>
